@@ -44,4 +44,18 @@
 		height: 25px;
 		padding: 0px 100px;
 	}
+
+	.form-control{
+		border-style: solid;
+		position: relative;
+		margin: 0 auto;
+		left: 250px;
+		width: 50%;
+		height: 600px;
+		text-align: center;
+		font-size: 20px;
+		overflow-x: scroll;
+	}
+
+	
 	
