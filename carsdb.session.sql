@@ -29,3 +29,19 @@ INSERT INTO `client_register` (`id`, `firstname`, `lastname`,
 VALUES ('2', 'Brittany', 'Simpson', 'britsim3@yahoo.com', 'password2', 
 '1234 Main St', 'Royal Oak', 'MI', '48092'), 
 (NULL, '', '', '', '', '', '', '', '')
+
+INSERT INTO `user_car` (`id`, `Manufacturer`, `Year`, `Model`)
+VALUES ('1', 'Subaru', '2019', 'Outback')
+
+INSERT INTO `user_car` (`id`, `Manufacturer`, `Year`, `Model`) 
+VALUES ('2', 'Chevy', '2011', 'Silverado')
+
+INSERT INTO `mechanic_tools` (`Manufacturer`, `Model`, `Description`) 
+VALUES ('Bahco', 'Adjustable Wrench', 'An open-end wrench with a movable jaw, 
+allowing it to be \r\nused with different sizes of fastener head ( nut, bolt, etc.)
+\r\nrather than just one fastener size, as with a conventional fixed spanner.\r\n')
+
+INSERT INTO `mechanic_tools` (`Manufacturer`, `Model`, `Description`) 
+VALUES ('Grainger', 'Screwdriver', 'A screwdriver is a tool, manual or powered, 
+used for driving screws. A typical simple screwdriver has a handle and a shaft, 
+ending in a tip the user puts into the screw head before turning the handle.');
