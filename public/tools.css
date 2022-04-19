@@ -26,6 +26,7 @@ h1{
     font-size: 45px;
     float: right;
     position: right;
+    justify-content: space-between;
 }
 
 input {
